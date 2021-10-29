@@ -140,6 +140,8 @@
 		4A744DAD272BB6DC002418D1 /* XMPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				4A744DB4272BB775002418D1 /* View */,
+				4A744DB3272BB769002418D1 /* Model */,
 				4A744DB2272BB734002418D1 /* Protocol */,
 				4A744DB1272BB70A002418D1 /* Manager */,
 				4A744DAF272BB6E9002418D1 /* Utils */,
@@ -174,6 +176,20 @@
 			children = (
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4A744DB3272BB769002418D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A744DB4272BB775002418D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
