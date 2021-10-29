@@ -17,6 +17,10 @@
 		4A744D95272BB5DD002418D1 /* XMPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744D94272BB5DD002418D1 /* XMPhotoBrowserTests.m */; };
 		4A744D9F272BB5DD002418D1 /* XMPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744D9E272BB5DD002418D1 /* XMPhotoBrowserUITests.m */; };
 		4A744DA1272BB5DD002418D1 /* XMPhotoBrowserUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DA0272BB5DD002418D1 /* XMPhotoBrowserUITestsLaunchTests.m */; };
+		4A744DB7272BB800002418D1 /* needReplaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DB6272BB800002418D1 /* needReplaceView.m */; };
+		4A744DBA272BB81A002418D1 /* needReplaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DB9272BB81A002418D1 /* needReplaceModel.m */; };
+		4A744DBE272BB864002418D1 /* XMPhotoBrowserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DBD272BB864002418D1 /* XMPhotoBrowserManager.m */; };
+		4A744DC2272BB89F002418D1 /* XMPhotoBrowserCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DC1272BB89F002418D1 /* XMPhotoBrowserCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,16 @@
 		4A744D9A272BB5DD002418D1 /* XMPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A744D9E272BB5DD002418D1 /* XMPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoBrowserUITests.m; sourceTree = "<group>"; };
 		4A744DA0272BB5DD002418D1 /* XMPhotoBrowserUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoBrowserUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4A744DB5272BB800002418D1 /* needReplaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needReplaceView.h; sourceTree = "<group>"; };
+		4A744DB6272BB800002418D1 /* needReplaceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = needReplaceView.m; sourceTree = "<group>"; };
+		4A744DB8272BB81A002418D1 /* needReplaceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needReplaceModel.h; sourceTree = "<group>"; };
+		4A744DB9272BB81A002418D1 /* needReplaceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = needReplaceModel.m; sourceTree = "<group>"; };
+		4A744DBB272BB842002418D1 /* needReplaceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needReplaceProtocol.h; sourceTree = "<group>"; };
+		4A744DBC272BB864002418D1 /* XMPhotoBrowserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPhotoBrowserManager.h; sourceTree = "<group>"; };
+		4A744DBD272BB864002418D1 /* XMPhotoBrowserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoBrowserManager.m; sourceTree = "<group>"; };
+		4A744DBF272BB878002418D1 /* XMPhotoBrowserUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPhotoBrowserUtils.h; sourceTree = "<group>"; };
+		4A744DC0272BB89F002418D1 /* XMPhotoBrowserCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPhotoBrowserCore.h; sourceTree = "<group>"; };
+		4A744DC1272BB89F002418D1 /* XMPhotoBrowserCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoBrowserCore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +167,8 @@
 		4A744DAE272BB6E3002418D1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				4A744DC0272BB89F002418D1 /* XMPhotoBrowserCore.h */,
+				4A744DC1272BB89F002418D1 /* XMPhotoBrowserCore.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -160,6 +176,7 @@
 		4A744DAF272BB6E9002418D1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4A744DBF272BB878002418D1 /* XMPhotoBrowserUtils.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -167,6 +184,8 @@
 		4A744DB1272BB70A002418D1 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				4A744DBC272BB864002418D1 /* XMPhotoBrowserManager.h */,
+				4A744DBD272BB864002418D1 /* XMPhotoBrowserManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -174,6 +193,7 @@
 		4A744DB2272BB734002418D1 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				4A744DBB272BB842002418D1 /* needReplaceProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -181,6 +201,8 @@
 		4A744DB3272BB769002418D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4A744DB8272BB81A002418D1 /* needReplaceModel.h */,
+				4A744DB9272BB81A002418D1 /* needReplaceModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,6 +210,8 @@
 		4A744DB4272BB775002418D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4A744DB5272BB800002418D1 /* needReplaceView.h */,
+				4A744DB6272BB800002418D1 /* needReplaceView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,7 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A744DB7272BB800002418D1 /* needReplaceView.m in Sources */,
 				4A744D80272BB5D9002418D1 /* ViewController.m in Sources */,
+				4A744DBA272BB81A002418D1 /* needReplaceModel.m in Sources */,
+				4A744DC2272BB89F002418D1 /* XMPhotoBrowserCore.m in Sources */,
+				4A744DBE272BB864002418D1 /* XMPhotoBrowserManager.m in Sources */,
 				4A744D7A272BB5D9002418D1 /* AppDelegate.m in Sources */,
 				4A744D8B272BB5DD002418D1 /* main.m in Sources */,
 				4A744D7D272BB5D9002418D1 /* SceneDelegate.m in Sources */,
