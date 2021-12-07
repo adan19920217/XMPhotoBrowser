@@ -17,11 +17,13 @@
 		4A744D95272BB5DD002418D1 /* XMPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744D94272BB5DD002418D1 /* XMPhotoBrowserTests.m */; };
 		4A744D9F272BB5DD002418D1 /* XMPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744D9E272BB5DD002418D1 /* XMPhotoBrowserUITests.m */; };
 		4A744DA1272BB5DD002418D1 /* XMPhotoBrowserUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DA0272BB5DD002418D1 /* XMPhotoBrowserUITestsLaunchTests.m */; };
-		4A744DB7272BB800002418D1 /* needReplaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DB6272BB800002418D1 /* needReplaceView.m */; };
 		4A744DBA272BB81A002418D1 /* needReplaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DB9272BB81A002418D1 /* needReplaceModel.m */; };
 		4A744DBE272BB864002418D1 /* XMPhotoBrowserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DBD272BB864002418D1 /* XMPhotoBrowserManager.m */; };
 		4A744DC2272BB89F002418D1 /* XMPhotoBrowserCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DC1272BB89F002418D1 /* XMPhotoBrowserCore.m */; };
 		4A744DC6272BB913002418D1 /* needReplaceTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A744DC5272BB913002418D1 /* needReplaceTranslation.m */; };
+		4AA6F9272745EC8D002D6883 /* XMPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6F9262745EC8D002D6883 /* XMPhotoView.m */; };
+		4AA6F92D2746588D002D6883 /* XMPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6F92C2746588D002D6883 /* XMPhotoBrowserView.m */; };
+		4AA6F933274678F8002D6883 /* XMPhotoViewScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6F932274678F8002D6883 /* XMPhotoViewScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +61,6 @@
 		4A744D9A272BB5DD002418D1 /* XMPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A744D9E272BB5DD002418D1 /* XMPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoBrowserUITests.m; sourceTree = "<group>"; };
 		4A744DA0272BB5DD002418D1 /* XMPhotoBrowserUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoBrowserUITestsLaunchTests.m; sourceTree = "<group>"; };
-		4A744DB5272BB800002418D1 /* needReplaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needReplaceView.h; sourceTree = "<group>"; };
-		4A744DB6272BB800002418D1 /* needReplaceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = needReplaceView.m; sourceTree = "<group>"; };
 		4A744DB8272BB81A002418D1 /* needReplaceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needReplaceModel.h; sourceTree = "<group>"; };
 		4A744DB9272BB81A002418D1 /* needReplaceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = needReplaceModel.m; sourceTree = "<group>"; };
 		4A744DBB272BB842002418D1 /* needReplaceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needReplaceProtocol.h; sourceTree = "<group>"; };
@@ -71,6 +71,12 @@
 		4A744DC1272BB89F002418D1 /* XMPhotoBrowserCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoBrowserCore.m; sourceTree = "<group>"; };
 		4A744DC4272BB913002418D1 /* needReplaceTranslation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needReplaceTranslation.h; sourceTree = "<group>"; };
 		4A744DC5272BB913002418D1 /* needReplaceTranslation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = needReplaceTranslation.m; sourceTree = "<group>"; };
+		4AA6F9252745EC8D002D6883 /* XMPhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPhotoView.h; sourceTree = "<group>"; };
+		4AA6F9262745EC8D002D6883 /* XMPhotoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoView.m; sourceTree = "<group>"; };
+		4AA6F92B2746588D002D6883 /* XMPhotoBrowserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPhotoBrowserView.h; sourceTree = "<group>"; };
+		4AA6F92C2746588D002D6883 /* XMPhotoBrowserView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoBrowserView.m; sourceTree = "<group>"; };
+		4AA6F931274678F8002D6883 /* XMPhotoViewScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPhotoViewScrollView.h; sourceTree = "<group>"; };
+		4AA6F932274678F8002D6883 /* XMPhotoViewScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPhotoViewScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,8 +220,12 @@
 		4A744DB4272BB775002418D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4A744DB5272BB800002418D1 /* needReplaceView.h */,
-				4A744DB6272BB800002418D1 /* needReplaceView.m */,
+				4AA6F9252745EC8D002D6883 /* XMPhotoView.h */,
+				4AA6F9262745EC8D002D6883 /* XMPhotoView.m */,
+				4AA6F92B2746588D002D6883 /* XMPhotoBrowserView.h */,
+				4AA6F92C2746588D002D6883 /* XMPhotoBrowserView.m */,
+				4AA6F931274678F8002D6883 /* XMPhotoViewScrollView.h */,
+				4AA6F932274678F8002D6883 /* XMPhotoViewScrollView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -359,14 +369,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A744DB7272BB800002418D1 /* needReplaceView.m in Sources */,
 				4A744D80272BB5D9002418D1 /* ViewController.m in Sources */,
+				4AA6F9272745EC8D002D6883 /* XMPhotoView.m in Sources */,
 				4A744DBA272BB81A002418D1 /* needReplaceModel.m in Sources */,
 				4A744DC6272BB913002418D1 /* needReplaceTranslation.m in Sources */,
 				4A744DC2272BB89F002418D1 /* XMPhotoBrowserCore.m in Sources */,
 				4A744DBE272BB864002418D1 /* XMPhotoBrowserManager.m in Sources */,
 				4A744D7A272BB5D9002418D1 /* AppDelegate.m in Sources */,
 				4A744D8B272BB5DD002418D1 /* main.m in Sources */,
+				4AA6F92D2746588D002D6883 /* XMPhotoBrowserView.m in Sources */,
+				4AA6F933274678F8002D6883 /* XMPhotoViewScrollView.m in Sources */,
 				4A744D7D272BB5D9002418D1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +554,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YW7W422F4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XMPhotoBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -549,6 +562,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,6 +582,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YW7W422F4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XMPhotoBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -575,6 +590,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

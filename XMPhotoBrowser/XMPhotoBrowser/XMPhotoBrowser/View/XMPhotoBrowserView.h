@@ -1,15 +1,15 @@
 //
-//  needReplceView.h
+//  XMPhotoBrowserView.h
 //  XMPhotoBrowser
 //
-//  Created by weipengcheng on 2021/10/29.
+//  Created by weipengcheng on 2021/11/18.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface needReplaceView : UIView
+@interface XMPhotoBrowserView : UIView
 
 @end
 

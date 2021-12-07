@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import "XMPhotoBrowserView.h"
 @interface ViewController ()
 
 @end
@@ -15,7 +15,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    XMPhotoBrowserView *photoView = [[XMPhotoBrowserView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:photoView];
+    photoView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 }
 
 
